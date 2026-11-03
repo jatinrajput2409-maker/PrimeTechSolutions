@@ -25,8 +25,8 @@ export const Footer = () => {
           <div className="lg:col-span-2 space-y-4">
             <Link to="/" className="flex items-center gap-3">
               <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-cyan-400 p-[1px]">
-                <div className="w-full h-full bg-slate-900 dark:bg-[#0b0f19] rounded-[11px] flex items-center justify-center">
-                  <Layers className="w-5 h-5 text-indigo-400" />
+                <div className="w-full h-full bg-white dark:bg-[#0b0f19] rounded-[11px] flex items-center justify-center">
+                  <Layers className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
                 </div>
               </div>
               <span className="text-xl font-extrabold tracking-tight text-slate-900 dark:text-white">
